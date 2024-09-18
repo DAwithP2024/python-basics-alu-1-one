@@ -54,7 +54,7 @@ def display_sorted_products(products_list, sort_order):
     return sorted_products
 
 def add_to_cart(cart, product, quantity):
-    cart.append((product[0], product[1], quantity))  # (产品名称, 单价, 数量)
+    cart.append((product[0], product[1], quantity)) 
 
 def display_cart(cart):
     print("\nYour Shopping Cart:")
